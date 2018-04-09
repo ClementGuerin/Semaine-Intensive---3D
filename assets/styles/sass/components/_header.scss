@@ -1,0 +1,54 @@
+.Header {
+  z-index: 2;
+  position: fixed;
+  background: transparent;
+  padding: 26px 0;
+  width: 100%;
+  &-left {
+    display: flex;
+    align-items: center;
+  }
+  &-link {
+    width: 150px;
+    height: 40px;
+  }
+  &-logo {
+    display: block;
+    fill: #fff;
+    width: inherit;
+    height: inherit;
+  }
+  &-arrowIcon {
+    width: 24px;
+    height: 14px;
+    stroke: #fff;
+    cursor: pointer;
+  }
+  &-address {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  &-phoneIcon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    margin-right: 10px;
+  }
+  &-phoneLink {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-decoration: none;
+  }
+  &-nav {
+    display: none;
+  }
+}
+
+
+@media (min-width: 375px) and (max-width: 1024px) {
+
+}

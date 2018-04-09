@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, C:/wamp64/www/si3d/assets/styles/sass/global/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 16, C:/wamp64/www/si3d/assets/styles/sass/global/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 19, C:/wamp64/www/si3d/assets/styles/sass/global/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, C:/wamp64/www/si3d/assets/styles/sass/global/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 25, C:/wamp64/www/si3d/assets/styles/sass/global/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, C:/wamp64/www/si3d/assets/styles/sass/global/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 34, C:/wamp64/www/si3d/assets/styles/sass/global/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 38, C:/wamp64/www/si3d/assets/styles/sass/global/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header {
+  z-index: 2;
+  position: fixed;
+  background: transparent;
+  padding: 26px 0;
+  width: 100%;
+}
+
+/* line 7, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header-left {
+  display: flex;
+  align-items: center;
+}
+
+/* line 11, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header-link {
+  width: 150px;
+  height: 40px;
+}
+
+/* line 15, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header-logo {
+  display: block;
+  fill: #fff;
+  width: inherit;
+  height: inherit;
+}
+
+/* line 21, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header-arrowIcon {
+  width: 24px;
+  height: 14px;
+  stroke: #fff;
+  cursor: pointer;
+}
+
+/* line 27, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header-address {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* line 33, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header-phoneIcon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  margin-right: 10px;
+}
+
+/* line 40, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header-phoneLink {
+  color: #fff;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* line 46, C:/wamp64/www/si3d/assets/styles/sass/components/_header.scss */
+.Header-nav {
+  display: none;
+}
+
+/*# sourceMappingURL=../styles.map */
