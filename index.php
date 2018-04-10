@@ -67,7 +67,13 @@
             <p class="offset-md-2 col-md-6">Notre vocation est de repousser les limites du rationnel, de rendre possible l’impossible. Pour cela, nous recherchons l’innovation partout. Le Portal Gun est notre dernière création et incarne la révolution la plus cruciale de notre génération. Ce dispositif unique nous permet de faire un bond dans le futur, en permettant de donner vie à des idées jusqu’alors réservées aux romans de science-fiction les plus fous.</p>
         </div>
     </section>
-    <section class="videodemo">        
+    <section class="videodemo">
+       <div class="container">
+           <div class="video">
+               <video src="assets/videos/header.mp4" class="video" muted autoplay loop controls>
+               </video>
+           </div>
+       </div>      
     </section>
     <section class="technologie">
         <div class="container">
@@ -82,7 +88,20 @@
         </div>
     </section>
     <section class="specs">
-        
+       <div class="container">
+           <div class="spec1">
+               <img src="assets/img/spec_1.png" alt="spec1" class="img1 offset-md-4">
+               <img src="assets/img/portalgun_1.png" alt="portalgun_1" class="img2">
+               <h3>Spec 1</h3>
+               <p class="offset-md-7 col-md-4">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés.</p>
+           </div>
+           <div class="spec2">
+               <img src="assets/img/spec_2.png" alt="spec2" class="img1">
+               <img src="assets/img/portalgun_2.png" alt="portalgun_2" class="img2 offset-md-6">
+               <h3 class="offset-md-5">Spec 2</h3>
+               <p class="offset-md-1 col-md-4">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés.</p>
+           </div>
+       </div>
     </section>
 </body>
 <!-- JS -->
