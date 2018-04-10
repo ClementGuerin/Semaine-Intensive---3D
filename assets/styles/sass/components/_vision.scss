@@ -1,0 +1,32 @@
+.vision{
+    position: relative;
+    z-index: 1;
+    padding: 330px 0;
+    
+    h1{
+        font-size: 36px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-family: 'Exo SemiBold';
+        margin-bottom: 60px;
+    }
+    
+    h1::before{
+        content: '';
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background: $background-blue;
+        opacity: 0.25;
+        margin-left: -65px;
+        margin-top: -34px;
+        z-index: -1;
+    }
+    
+    p{
+        font-size: 18px;
+        font-family: 'Exo Regular';
+        line-height: 18*1.5px;
+        text-align: justify;
+    }
+}

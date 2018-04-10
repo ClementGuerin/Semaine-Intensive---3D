@@ -17,7 +17,7 @@
     </section>
     <section class="header">
         <div class="container menubar">
-            <img src="assets/img/logo.png" alt="" class="logo">
+            <img src="assets/img/logo.png" alt="" class="col-md-3 logo">
             <ul class="menu">
                 <a href="#">
                     <li>Notre vision</li>
@@ -57,7 +57,32 @@
                 Faites le <b>grand saut</b><br>
                 vers le <b>futur</b>
             </h1>
+            <h3>Découvrir</h3>
+            <div class="h3-under"></div>
         </div>
+    </section>
+    <section class="vision">
+        <div class="container">
+            <h1>Notre vision</h1>
+            <p class="offset-md-2 col-md-6">Notre vocation est de repousser les limites du rationnel, de rendre possible l’impossible. Pour cela, nous recherchons l’innovation partout. Le Portal Gun est notre dernière création et incarne la révolution la plus cruciale de notre génération. Ce dispositif unique nous permet de faire un bond dans le futur, en permettant de donner vie à des idées jusqu’alors réservées aux romans de science-fiction les plus fous.</p>
+        </div>
+    </section>
+    <section class="videodemo">        
+    </section>
+    <section class="technologie">
+        <div class="container">
+            <h1>NOTRE TECHNOLOGIE</h1>
+            <p class="offset-md-2 col-md-6">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés. Quelque soit la distance qui les sépare, toute chose peut entrer dans un portail avant d’émerger de l’autre côté instantanément. Les portails peuvent être placés sur n’importe quelle surface, à condition que celle-ci soit suffisamment large pour l’accommoder.</p>
+        </div>
+    </section>
+    <section class="demo3d">
+        <div class="container">
+            <h1>Découvrez-le en 3D</h1>
+            <div class="app"></div>
+        </div>
+    </section>
+    <section class="specs">
+        
     </section>
 </body>
 <!-- JS -->
