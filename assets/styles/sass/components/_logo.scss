@@ -1,0 +1,79 @@
+svg {
+    fill: none;
+    stroke-width: 5;
+    width: 270px;
+}
+svg * {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 4s linear forwards;
+}
+svg *:nth-child(1) {
+    /* stroke: aqua; */
+    animation-delay: 0s;
+}
+svg *:nth-child(2) {
+    /* stroke: blue; */
+    animation-delay: .5s;
+}
+svg *:nth-child(3) {
+    /* stroke: yellow; */
+    animation-delay: 2s;
+}
+svg *:nth-child(4) {
+    /* stroke: yellowgreen; */
+    animation-delay: 1.5s;
+}
+svg *:nth-child(5) {
+    /* stroke: red; */
+    animation-delay: .75s;
+}
+svg *:nth-child(6) {
+    /* stroke: pink; */
+    animation-delay: 1s;
+}
+svg *:nth-child(7) {
+    /* stroke: violet; */
+    animation-delay: 1.5s;
+}
+svg *:nth-child(8) {
+    /* stroke: grey; */
+    animation-delay: 1.75s;
+}
+svg *:nth-child(9) {
+    /* stroke: black; */
+    animation-delay: 1.75s;
+}
+svg *:nth-child(10) {
+    /* stroke: green; */
+    animation-delay: 10s;
+}
+svg *:nth-child(11) {
+    /* stroke: crimson; */
+    animation-delay: 2.5s;
+}
+svg *:nth-child(12) {
+    /* stroke: dodgerblue; */
+    animation-delay: 1s;
+}
+svg *:nth-child(13) {
+    /* stroke: tomato; */
+    animation-delay: 10s;
+}
+svg *:nth-child(14) {
+    /* stroke: chocolate; */
+    animation-delay: 10s;
+}
+svg *:nth-child(15) {
+    /* stroke: palevioletred; */
+    animation-delay: .25s;
+}
+svg * {
+    stroke: $background-blue;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

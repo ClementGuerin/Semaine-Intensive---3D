@@ -1,5 +1,9 @@
 // global
 @import 'global/reset';
+@import 'global/variables';
+@import 'global/fonts';
 
 // components
 @import 'components/header';
+@import 'components/logo';
+@import 'components/grid';
