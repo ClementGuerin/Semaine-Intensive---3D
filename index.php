@@ -85,8 +85,8 @@
         <div class="container">
             <h1>Découvrez-le en 3D</h1>
             <div class="app"></div>
-            <div class="appBtns col-md-12">
-               <div class="portalsColor col-md-6">
+            <div class="appBtns row">
+               <div class="portalsColor offset-md-1 col-md-4">
                    <h3>Couleur des portails :</h3>
                    <ul class="colors">
                        <li></li>
@@ -95,7 +95,15 @@
                        <li></li>
                    </ul>
                </div>
-               <div class="portalgunColor col-md-5"></div>
+               <div class="portalgunColor offset-md-2 col-md-4">
+                   <h3>Couleur du Portal Gun :</h3>
+                   <ul class="colors">
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                   </ul>
+               </div>
                 
             </div>
         </div>

@@ -17,25 +17,82 @@
             h3{
                 font-size: 16px;
                 font-family: 'Exo Regular';
-                margin: 40px 0;
+                margin-top: 70px;
+                margin-bottom: 40px;
                 text-align: center;
             }
             .colors{
                 display: flex;
                 justify-content: space-around;
                 
-                li{
-                    
+                li:nth-child(1){
+                    background: linear-gradient(to right, #1857ae 0%, #1857ae 49%, #ae590e 50%, #ae590e 100%);
                 }
                 
-                li{
-                    width: 40px;
-                    height: 20px;
-                    background: linear-gradient(to right, #1857ae 0%, #1857ae 49%, #ae590e 50%, #ae590e 100%);
-                    border: solid 1px #eee;
-                    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+                li:nth-child(2){
+                    background: linear-gradient(to right, #cea83e 0%, #cea83e 49%, #7c0b0d 50%, #7c0b0d 100%);
+                }
+                
+                li:nth-child(3){
+                    background: linear-gradient(to right, #26a0bc 0%, #26a0bc 49%, #362676 50%, #362676 100%);
+                }
+                
+                li:nth-child(4){
+                    background: linear-gradient(to right, #362676 0%, #362676 49%, #c6b80a 50%, #c6b80a 100%);
                 }
             }
         }
+        
+        .portalgunColor{
+            h3{
+                font-size: 16px;
+                font-family: 'Exo Regular';
+                margin-top: 70px;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+            .colors{
+                display: flex;
+                justify-content: space-around;
+
+                li:nth-child(1){
+                    background: #dedede;
+                }
+
+                li:nth-child(2){
+                    background: #362676;
+                }
+
+                li:nth-child(3){
+                    background: #26a0bc;
+                }
+
+                li:nth-child(4){
+                    background: #ae590e;
+                }
+            }
+        }
+    }
+    
+    li{
+        width: 50px;
+        height: 24px;
+        border: solid 3px #fff;
+        //box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        transition: $transition;
+        outline: solid 2px #fff;
+        cursor: pointer;
+    }
+    
+    li:hover{
+        outline: solid 2px #dedede;
+    }
+    
+    .btnCheck{
+        outline: solid 2px rgba(30, 193, 90, 0.7) !important;
+    }
+    
+    .btnCheck:hover{
+        outline: solid 2px rgba(30, 193, 90, 0.7) !important;
     }
 }
