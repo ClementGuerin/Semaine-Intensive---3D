@@ -313,11 +313,11 @@ table {
   justify-content: space-around;
 }
 
-/* line 27, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 31, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalsColor .colors li {
   width: 40px;
   height: 20px;
-  background: linear-gradient(to right, #000000 0%, #000000 49%, #ffffff 50%, #ffffff 100%);
+  background: linear-gradient(to right, #1857ae 0%, #1857ae 49%, #ae590e 50%, #ae590e 100%);
   border: solid 1px #eee;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
