@@ -1,95 +1,85 @@
 .form {
-  padding-bottom: 160px;
-  .container {
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: 'Exo Regular';
-    .row {
-      div {
-        h1 {
-          text-transform: uppercase;
-          letter-spacing: 4px;
-          font-family: 'Exo SemiBold';
-          margin-bottom: 60px;
-          font-size: 36px;
+    padding-bottom: 190px;
+    z-index: 1;
+    position: relative;
+    .container {
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: 'Exo Regular';
+        .row {
+            div {
+                h1 {
+                    text-transform: uppercase;
+                    letter-spacing: 4px;
+                    font-family: 'Exo SemiBold';
+                    margin-bottom: 60px;
+                    font-size: 36px;
+                }
+                h1::before {
+                    position: absolute;
+                    width: 150px;
+                    height: 150px;
+                    background: rgba(74, 144, 226, 1);
+                    opacity: 0.25;
+                    margin-left: -65px;
+                    margin-top: -34px;
+                    z-index: -1;
+                    content: '';
+                }
+                p {
+                    text-align: justify;
+                }
+            }
+            form {
+                background-color: rgba(74, 144, 226, 1);
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+                label {
+                    color: white;
+                    margin-top: 15px;
+                }
+                input,
+                select {
+                    margin: 10px 0;
+                    border: none;
+                    box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.23);
+                    border-radius: 3px;
+                    padding: 14px 30px;
+                }
+                input::placeholder {
+                    font-style: italic;
+                }
+                .formBtn {
+                    width: 200px;
+                    margin: 60px auto 0 auto;
+                    text-transform: uppercase;
+                    font-family: 'Exo SemiBold';
+                    background: #fff;
+                    transition: $transition;
+                    cursor: pointer;
+                }
+                .formBtn:hover{
+                    background: #eee;
+                }
+                div {
+                    // position: relative;
+                    display: flex;
+                    align-items: center;
+                    select {
+                        cursor: pointer;
+                        width: 100%;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                    }
+                    svg {
+                        position: absolute;
+                        right: 70px;
+                        opacity: .25;
+                        pointer-events: none;
+                    }
+                }
+            }
         }
-        h1::before{
-          position: absolute;
-          width: 150px;
-          height: 150px;
-          background: rgba(74, 144, 226, 1);
-          opacity: 0.25;
-          margin-left: -65px;
-          margin-top: -34px;
-          z-index: -1;
-          content: '';
-        }
-        p {
-          text-align: justify;
-        }
-      }
-      form {
-        background-color: rgba(74, 144, 226, 1);
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        label {
-          color: white;
-        }
-        input, select {
-          margin: 10px 0;
-          border: none;
-          box-shadow: 0 2px 21px 0 rgba(0,0,0,0.23);
-          border-radius: 3px;
-          padding: 14px 30px;
-        }
-        input::placeholder {
-        }
-        input:last-child {
-          width: 200px;
-          margin: 60px auto 0 auto;
-          text-transform: uppercase;
-          font-family: 'Exo SemiBold';
-          background-color: #fff;
-        }
-        div {
-          // position: relative;
-          display: flex;
-          align-items: center;
-          select {
-            cursor: pointer;
-            width: 100%;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-          }
-          svg {
-            position: absolute;
-            right: 70px;
-            opacity: .25;
-          }
-        }
-      }
     }
-  }
-}
-
-
-
-.footer {
-  display: flex;
-  align-items: center; 
-  border: 1px solid rgba(216,216,216,0.54);
-  font-family: 'Exo Medium';
-  font-size: 18px;
-  padding: 0 100px;
-  a {
-    color: #000;
-    margin-right: 80px;
-  }
-  svg {
-    margin: 30px 10px;
-  }
-  svg:nth-child(5) {
-    margin-left: auto;
-  }
 }

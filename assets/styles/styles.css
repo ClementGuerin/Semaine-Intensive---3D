@@ -473,6 +473,143 @@ table {
   margin-top: -140px;
 }
 
+/* line 1, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form {
+  padding-bottom: 190px;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 5, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Exo Regular';
+}
+
+/* line 11, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row div h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Exo SemiBold';
+  margin-bottom: 60px;
+  font-size: 36px;
+}
+
+/* line 18, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row div h1::before {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: #4a90e2;
+  opacity: 0.25;
+  margin-left: -65px;
+  margin-top: -34px;
+  z-index: -1;
+  content: '';
+}
+
+/* line 29, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row div p {
+  text-align: justify;
+}
+
+/* line 33, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form {
+  background-color: #4a90e2;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 38, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form label {
+  color: white;
+  margin-top: 15px;
+}
+
+/* line 42, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form input,
+.form .container .row form select {
+  margin: 10px 0;
+  border: none;
+  box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.23);
+  border-radius: 3px;
+  padding: 14px 30px;
+}
+
+/* line 50, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form input::placeholder {
+  font-style: italic;
+}
+
+/* line 53, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form .formBtn {
+  width: 200px;
+  margin: 60px auto 0 auto;
+  text-transform: uppercase;
+  font-family: 'Exo SemiBold';
+  background: #fff;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+/* line 62, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form .formBtn:hover {
+  background: #eee;
+}
+
+/* line 65, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form div {
+  display: flex;
+  align-items: center;
+}
+
+/* line 69, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form div select {
+  cursor: pointer;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* line 75, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_form.scss */
+.form .container .row form div svg {
+  position: absolute;
+  right: 70px;
+  opacity: .25;
+  pointer-events: none;
+}
+
+/* line 2, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_footer.scss */
+.footer {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(216, 216, 216, 0.54);
+  background: #fff;
+  font-family: 'Exo Regular';
+  font-size: 14px;
+  padding: 0 100px;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 12, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_footer.scss */
+.footer a {
+  color: #000;
+  margin-right: 80px;
+}
+
+/* line 16, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_footer.scss */
+.footer svg {
+  margin: 30px 10px;
+}
+
+/* line 19, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_footer.scss */
+.footer svg:nth-child(5) {
+  margin-left: auto;
+}
+
 /* line 1, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_logo.scss */
 svg {
   fill: none;

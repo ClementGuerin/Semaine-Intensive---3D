@@ -1,0 +1,22 @@
+
+.footer {
+    display: flex;
+    align-items: center; 
+    border: 1px solid rgba(216,216,216,0.54);
+    background: $background-white;
+    font-family: 'Exo Regular';
+    font-size: 14px;
+    padding: 0 100px;
+    z-index: 1;
+    position: relative;
+    a {
+        color: #000;
+        margin-right: 80px;
+    }
+    svg {
+        margin: 30px 10px;
+    }
+    svg:nth-child(5) {
+        margin-left: auto;
+    }
+}

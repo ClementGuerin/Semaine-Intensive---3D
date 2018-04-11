@@ -155,24 +155,24 @@
                         <i class="fas fa-angle-down"></i>
                     </div>
 
-                    <input type="submit" value="Valider">
+                    <input type="submit" value="Valider" class="formBtn">
                 </form>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
+    <section class="footer">
         <a href="#">Contact</a>
         <a href="#">Plan du site</a>
         <a href="#">Mentions légales</a>
         <a href="#">Carrières</a>
 
-        <i class="fab fa-linkedin" style="width:40px;height:40px"></i>
-        <i class="fab fa-facebook-square" style="width:40px;height:40px"></i>
-        <i class="fab fa-twitter-square" style="width:40px;height:40px"></i>
+        <i class="fab fa-linkedin" style="width:30px;height:30px"></i>
+        <i class="fab fa-facebook-square" style="width:30px;height:30px"></i>
+        <i class="fab fa-twitter-square" style="width:30px;height:30px"></i>
 
 
-    </footer>
+    </section>
 </body>
 <!-- JS -->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
