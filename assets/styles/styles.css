@@ -420,7 +420,6 @@ table {
 /* line 16, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
 .specs .spec1 h3 {
   padding: 12px 24px;
-  padding-right: 120px;
   background: #4a90e2;
   font-size: 18px;
   font-family: 'Exo SemiBold';
@@ -433,7 +432,7 @@ table {
   z-index: 2;
 }
 
-/* line 30, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
+/* line 29, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
 .specs .spec1 p {
   font-size: 18px;
   font-family: 'Exo Regular';
@@ -441,22 +440,21 @@ table {
   margin-top: -60px;
 }
 
-/* line 38, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
+/* line 37, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
 .specs .spec2 {
   padding-bottom: 320px;
 }
 
-/* line 42, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
+/* line 41, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
 .specs .spec2 .img2 {
   position: relative;
   z-index: 1;
   margin-top: -200px;
 }
 
-/* line 47, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
+/* line 46, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
 .specs .spec2 h3 {
   padding: 12px 24px;
-  padding-left: 120px;
   background: #4a90e2;
   font-size: 18px;
   font-family: 'Exo SemiBold';
@@ -466,10 +464,10 @@ table {
   position: relative;
   z-index: 2;
   top: -220px;
-  left: -70px;
+  left: -240px;
 }
 
-/* line 61, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
+/* line 59, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
 .specs .spec2 p {
   font-size: 18px;
   font-family: 'Exo Regular';

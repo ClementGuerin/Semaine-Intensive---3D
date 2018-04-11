@@ -116,13 +116,13 @@
            <div class="spec1">
                <img src="assets/img/spec_1.png" alt="spec1" class="img1 offset-md-4">
                <img src="assets/img/portalgun_1.png" alt="portalgun_1" class="img2">
-               <h3>Spec 1</h3>
-               <p class="offset-md-7 col-md-4">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés.</p>
+               <h3>L’ANNEAU DE SINGULARITÉ</h3>
+               <p class="offset-md-7 col-md-4">L’anneau de singularité permet de maintenir le trou noir en rotation, l’empêchant d’être soumis à son propre centre gravitationnel et de par conséquent de s’évaporer.</p>
            </div>
            <div class="spec2">
                <img src="assets/img/spec_2.png" alt="spec2" class="img1">
                <img src="assets/img/portalgun_2.png" alt="portalgun_2" class="img2 offset-md-6">
-               <h3 class="offset-md-5">Spec 2</h3>
+               <h3 class="offset-md-5">LE VENTILATEUR DE REFROIDISSEMENT</h3>
                <p class="offset-md-1 col-md-4">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés.</p>
            </div>
        </div>
@@ -150,11 +150,11 @@
                     <label for="date">Date de visite souhaitée :</label> 
                     <div>
                         <select name="date">                        
-                            <option value="29/03/2051">29/03/2051</option>
-                            <option value="03/04/2052">03/04/2052</option>
-                            <option value="10/04/2052">10/04/2052</option>
-                            <option value="18/04/2052">18/04/2052</option>
-                            <option value="21/04/2052">21/04/2052</option>
+                            <option value="29 Mars 2051">29 Mars 2051</option>
+                            <option value="03 Avril 2051">03 Avril 2051</option>
+                            <option value="18 Avril 2051">18 Avril 2051</option>
+                            <option value="07 Mai 2051">07 Mai 2051</option>
+                            <option value="21 Mai 2051">21 Mai 2051</option>
                         </select> 
                         <i class="fas fa-angle-down"></i>
                     </div>
