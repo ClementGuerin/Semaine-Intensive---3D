@@ -4,6 +4,7 @@
     <title>SI-3D</title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/js/fontawesome-all.js"></script>
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 <body>
@@ -116,6 +117,54 @@
            </div>
        </div>
     </section>
+
+
+
+
+    <section class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Il faut le voir<br>pour le croire</h1>
+                    <p>Puisque toute révolution suscite l’intérêt des plus curieux, inscrivez-vous dès maintenant afin d’avoir la chance de venir découvrir le Portal Gun dans notre espace de test. </p>
+                </div>
+                <form class="col-md-5 offset-md-1" action="back/doadd.php" method="post">
+                    <input type="text" name="lastName" placeholder="Nom*"> 
+
+                    <input type="text" name="firstName" placeholder="Prénom*"> 
+
+                    <input type="mail" name="mail" placeholder="Email*"> 
+
+                    <label for="date">Date de visite souhaitée :</label> 
+                    <div>
+                        <select name="date">                        
+                            <option value="29/03/2051">29/03/2051</option>
+                            <option value="03/04/2052">03/04/2052</option>
+                            <option value="10/04/2052">10/04/2052</option>
+                            <option value="18/04/2052">18/04/2052</option>
+                            <option value="21/04/2052">21/04/2052</option>
+                        </select> 
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+
+                    <input type="submit" value="Valider">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="#">Contact</a>
+        <a href="#">Plan du site</a>
+        <a href="#">Mentions légales</a>
+        <a href="#">Carrières</a>
+
+        <i class="fab fa-linkedin" style="width:40px;height:40px"></i>
+        <i class="fab fa-facebook-square" style="width:40px;height:40px"></i>
+        <i class="fab fa-twitter-square" style="width:40px;height:40px"></i>
+
+
+    </footer>
 </body>
 <!-- JS -->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
