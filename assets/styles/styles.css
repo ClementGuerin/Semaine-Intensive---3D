@@ -299,6 +299,29 @@ table {
   background: #000;
 }
 
+/* line 17, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+.demo3d .appBtns .portalsColor h3 {
+  font-size: 16px;
+  font-family: 'Exo Regular';
+  margin: 40px 0;
+  text-align: center;
+}
+
+/* line 23, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+.demo3d .appBtns .portalsColor .colors {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 27, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+.demo3d .appBtns .portalsColor .colors li {
+  width: 40px;
+  height: 20px;
+  background: linear-gradient(to right, #000000 0%, #000000 49%, #ffffff 50%, #ffffff 100%);
+  border: solid 1px #eee;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
 /* line 1, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
 .specs {
   position: relative;
