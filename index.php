@@ -10,24 +10,32 @@
 <body>
     <section class="grid">
         <div class="container">
-            <div class="colonne"></div>
-            <div class="colonne"></div>
-            <div class="colonne"></div>
-            <div class="colonne"></div>
+            <div class="colonne">
+                <div class="light l1"></div>
+            </div>
+            <div class="colonne">
+                <div class="light l2"></div>
+            </div>
+            <div class="colonne">
+                <div class="light l3"></div>
+            </div>
+            <div class="colonne">
+                <div class="light l4"></div>
+                <div class="light l5"></div>
+            </div>
         </div>
     </section>
     <section class="header">
         <div class="container menubar">
-            <img src="assets/img/logo.png" alt="" class="col-md-3 logo">
             <ul class="menu">
-                <a href="#">
-                    <li>Notre vision</li>
-                </a>
                 <a href="#">
                     <li>Notre technologie</li>
                 </a>
                 <a href="#">
-                    <li>Nous rencontrer</li>
+                    <li>Notre vision</li>
+                </a>
+                <a href="#">
+                    <li>Inscription</li>
                 </a>
             </ul>
         </div>
@@ -62,20 +70,6 @@
             <div class="h3-under"></div>
         </div>
     </section>
-    <section class="vision">
-        <div class="container">
-            <h1>Notre vision</h1>
-            <p class="offset-md-2 col-md-6">Notre vocation est de repousser les limites du rationnel, de rendre possible l’impossible. Pour cela, nous recherchons l’innovation partout. Le Portal Gun est notre dernière création et incarne la révolution la plus cruciale de notre génération. Ce dispositif unique nous permet de faire un bond dans le futur, en permettant de donner vie à des idées jusqu’alors réservées aux romans de science-fiction les plus fous.</p>
-        </div>
-    </section>
-    <section class="videodemo">
-       <div class="container">
-           <div class="video">
-               <video src="assets/videos/header.mp4" class="video" muted autoplay loop controls>
-               </video>
-           </div>
-       </div>      
-    </section>
     <section class="technologie">
         <div class="container">
             <h1>NOTRE TECHNOLOGIE</h1>
@@ -109,6 +103,14 @@
             </div>
         </div>
     </section>
+    <section class="videodemo">
+       <div class="container">
+           <div class="video">
+               <video src="assets/videos/header.mp4" class="video" muted autoplay loop controls>
+               </video>
+           </div>
+       </div>      
+    </section>
     <section class="specs">
        <div class="container">
            <div class="spec1">
@@ -125,10 +127,12 @@
            </div>
        </div>
     </section>
-
-
-
-
+    <section class="vision">
+        <div class="container">
+            <h1>Notre vision</h1>
+            <p class="offset-md-2 col-md-6">Notre vocation est de repousser les limites du rationnel, de rendre possible l’impossible. Pour cela, nous recherchons l’innovation partout. Le Portal Gun est notre dernière création et incarne la révolution la plus cruciale de notre génération. Ce dispositif unique nous permet de faire un bond dans le futur, en permettant de donner vie à des idées jusqu’alors réservées aux romans de science-fiction les plus fous.</p>
+        </div>
+    </section>
     <section class="form">
         <div class="container">
             <div class="row">
@@ -160,18 +164,14 @@
             </div>
         </div>
     </section>
-
     <section class="footer">
         <a href="#">Contact</a>
         <a href="#">Plan du site</a>
         <a href="#">Mentions légales</a>
         <a href="#">Carrières</a>
-
         <i class="fab fa-linkedin" style="width:30px;height:30px"></i>
         <i class="fab fa-facebook-square" style="width:30px;height:30px"></i>
         <i class="fab fa-twitter-square" style="width:30px;height:30px"></i>
-
-
     </section>
 </body>
 <!-- JS -->

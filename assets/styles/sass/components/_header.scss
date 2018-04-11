@@ -3,9 +3,8 @@
     z-index: 2;
     
     .menubar{
+        text-align: center;
         margin-top: 50px;
-        display: flex;
-        justify-content: space-between;
         
         .menu{
             display: inline-block;
@@ -16,14 +15,16 @@
                 li{
                     display: inline-block;
                     padding: 10px 0px;
-                    padding-left: 30px;
+                    margin: 0px 30px;
                     font-family: "Exo Regular";
                     font-size: 16px;
                     transition: $transition;
                     color: rgba(0,0,0,0.7);
+                    border-bottom: solid 1px transparent;
                 }
                 li:hover{
                     color: rgba(0,0,0,1);
+                    border-bottom: solid 1px $background-blue;
                 }
             }
         }
