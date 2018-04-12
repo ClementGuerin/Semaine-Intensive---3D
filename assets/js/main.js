@@ -27,4 +27,3 @@ function checkPortalGun(){
     }
     this.classList.add('btnCheck');
 }
-

@@ -173,6 +173,12 @@
         <i class="fab fa-facebook-square" style="width:30px;height:30px"></i>
         <i class="fab fa-twitter-square" style="width:30px;height:30px"></i>
     </section>
+    
+    <?php
+    if ($_GET['form'] === 'success'){
+        echo "LA BITE OUI";
+    }
+    ?>
 </body>
 <!-- JS -->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
