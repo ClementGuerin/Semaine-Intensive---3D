@@ -4,8 +4,13 @@
     <title>SI-3D</title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <script src="assets/js/fontawesome-all.js"></script>
     <link rel="stylesheet" href="assets/styles/styles.css">
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/TestBuild1024.json");
+    </script>
+    <script src="assets/js/fontawesome-all.js"></script>
+    
 </head>
 <body>
     <section class="grid">
@@ -79,24 +84,28 @@
     <section class="demo3d">
         <div class="container">
             <h1>Découvrez-le en 3D</h1>
-            <div class="app"></div>
+            
+            <div style="margin:auto">
+                <div class="col-md-12" id="gameContainer" style="width: 1024px; height: 576px"></div>
+            </div>
+
             <div class="appBtns row">
                <div class="portalsColor offset-md-1 col-md-4">
                    <h3>Couleur des portails :</h3>
                    <ul class="colors">
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                       <li></li>
+                       <li onclick="changeColor({index: 0})"></li>
+                       <li onclick="changeColor({index: 1})"></li>
+                       <li onclick="changeColor({index: 2})"></li>
+                       <li onclick="changeColor({index: 3})"></li>
                    </ul>
                </div>
                <div class="portalgunColor offset-md-2 col-md-4">
                    <h3>Couleur du Portal Gun :</h3>
                    <ul class="colors">
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                       <li></li>
+                       <li onclick="changePortalGunColor({indexPortalGun: 0})"></li>
+                       <li onclick="changePortalGunColor({indexPortalGun: 1})"></li>
+                       <li onclick="changePortalGunColor({indexPortalGun: 2})"></li>
+                       <li onclick="changePortalGunColor({indexPortalGun: 3})"></li>
                    </ul>
                </div>
                 
@@ -173,6 +182,17 @@
         <i class="fab fa-facebook-square" style="width:30px;height:30px"></i>
         <i class="fab fa-twitter-square" style="width:30px;height:30px"></i>
     </section>
+
+    <script>
+        function changeColor(i) {
+            gameInstance.SendMessage("GameInterface", "SetColor", JSON.stringify(i))
+        }
+
+        function changePortalGunColor(i) {
+            console.log("bonjour" + i)
+            gameInstance.SendMessage("GameInterface", "SetPortalGunColor", JSON.stringify(i))
+        }
+	</script>
 </body>
 <!-- JS -->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
