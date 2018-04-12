@@ -24,3 +24,4 @@ $stmt->bindValue(':mail', $_POST['mail']);
 $stmt->bindValue(':date', $_POST['date']);
 
 $stmt->execute();
+header('Location: index.php');
