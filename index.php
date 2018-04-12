@@ -1,3 +1,17 @@
+<?php session_start();
+if(isset($_SESSION['form'])){
+    if($_SESSION['form'] == 'success'){
+        echo "
+        <div class=\"form-success\">
+            <div class=\"card\">
+                <p>Votre inscription a bien été enregistrée, vous recevrez une réponse dans les plus brefs délais.</p>
+                <a class=\"btnFormSuccess\">Ok</a>
+            </div>
+        </div>";
+        session_destroy();
+    }
+}
+?>
 <html>
 <head>
     <meta charset="UTF-8">

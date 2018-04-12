@@ -28,3 +28,11 @@ function checkPortalGun(){
     this.classList.add('btnCheck');
 }
 
+// Close form modal
+
+var formModal = document.querySelector('.form-success');
+var formModalBtn = document.querySelector('.btnFormSuccess');
+
+formModalBtn.addEventListener('click', function(){
+    formModal.remove();
+})

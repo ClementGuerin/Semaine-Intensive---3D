@@ -5,6 +5,7 @@
  * Date: 10/04/2018
  * Time: 12:01
  */
+session_start();
 
 if (($_POST['lastName']==='') || ($_POST['firstName']==='') || ($_POST['mail']==='')) {
     header('Location: ../index.php?error=Missing field');
@@ -24,4 +25,7 @@ $stmt->bindValue(':mail', $_POST['mail']);
 $stmt->bindValue(':date', $_POST['date']);
 
 $stmt->execute();
-header('Location: index.php');
+
+$_SESSION['form'] = 'success';
+
+header('Location: ../index.php');
