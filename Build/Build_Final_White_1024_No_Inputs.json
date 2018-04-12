@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Semaine_Intensive_Web",
+"dataUrl": "Build_Final_White_1024_No_Inputs.data.unityweb",
+"asmCodeUrl": "Build_Final_White_1024_No_Inputs.asm.code.unityweb",
+"asmMemoryUrl": "Build_Final_White_1024_No_Inputs.asm.memory.unityweb",
+"asmFrameworkUrl": "Build_Final_White_1024_No_Inputs.asm.framework.unityweb",
+"TOTAL_MEMORY": 1073741824,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

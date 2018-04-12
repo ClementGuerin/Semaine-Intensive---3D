@@ -21,7 +21,7 @@ if(isset($_SESSION['form'])){
     <link rel="stylesheet" href="assets/styles/styles.css">
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/TestBuild1024.json");
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build_Final_White_1024_No_Inputs.json");
     </script>
     <script src="assets/js/fontawesome-all.js"></script>
     
