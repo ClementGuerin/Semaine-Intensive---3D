@@ -71,7 +71,7 @@
         </div>
     </section>
     <section class="technologie">
-        <div class="container">
+        <div class="container parallax1">
             <h1>NOTRE TECHNOLOGIE</h1>
             <p class="offset-md-2 col-md-6">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés. Quelque soit la distance qui les sépare, toute chose peut entrer dans un portail avant d’émerger de l’autre côté instantanément. Les portails peuvent être placés sur n’importe quelle surface, à condition que celle-ci soit suffisamment large pour l’accommoder.</p>
         </div>
@@ -106,7 +106,7 @@
     <section class="videodemo">
        <div class="container">
            <div class="video">
-               <video src="assets/videos/header.mp4" class="video" muted autoplay loop controls>
+               <video src="assets/videos/demo.mkv" class="video" muted autoplay loop controls>
                </video>
            </div>
        </div>      
@@ -150,11 +150,11 @@
                     <label for="date">Date de visite souhaitée :</label> 
                     <div>
                         <select name="date">                        
-                            <option value="29 Mars 2051">29 Mars 2051</option>
-                            <option value="03 Avril 2051">03 Avril 2051</option>
-                            <option value="18 Avril 2051">18 Avril 2051</option>
-                            <option value="07 Mai 2051">07 Mai 2051</option>
-                            <option value="21 Mai 2051">21 Mai 2051</option>
+                            <option value="29/03/2051">29 Mars 2051</option>
+                            <option value="03/04/2051">03 Avril 2051</option>
+                            <option value="18/04/2051">18 Avril 2051</option>
+                            <option value="07/05/2051">07 Mai 2051</option>
+                            <option value="21/05/2051">21 Mai 2051</option>
                         </select> 
                         <i class="fas fa-angle-down"></i>
                     </div>

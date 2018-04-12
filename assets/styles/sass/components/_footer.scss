@@ -15,6 +15,12 @@
     }
     svg {
         margin: 30px 10px;
+        cursor: pointer;
+        transform: scale(1);
+        transition: $transition;
+    }
+    svg:hover{
+        transform: scale(1.1);
     }
     svg:nth-child(5) {
         margin-left: auto;

@@ -228,7 +228,7 @@ table {
 .videodemo {
   position: relative;
   z-index: 1;
-  background: #212121;
+  background: rgba(0, 0, 0, 0.05);
   width: 100%;
   padding: 120px 0;
 }
@@ -605,9 +605,17 @@ table {
 /* line 16, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_footer.scss */
 .footer svg {
   margin: 30px 10px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.25s;
 }
 
-/* line 19, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_footer.scss */
+/* line 22, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_footer.scss */
+.footer svg:hover {
+  transform: scale(1.1);
+}
+
+/* line 25, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_footer.scss */
 .footer svg:nth-child(5) {
   margin-left: auto;
 }
@@ -811,6 +819,12 @@ svg * {
 /* line 72, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_grid.scss */
 .light {
   display: none;
+}
+
+/* line 1, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_scrollParallax.scss */
+.scrollParallax {
+  position: relative;
+  transition: 0.05s;
 }
 
 /*# sourceMappingURL=../styles.map */
