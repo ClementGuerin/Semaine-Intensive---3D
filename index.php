@@ -99,7 +99,7 @@ if(isset($_SESSION['form'])){
         <div class="container">
             <h1>Découvrez-le en 3D</h1>
             
-            <div style="margin:auto">
+            <div style="align-content: center;text-align: center;padding: 0px 47px;">
                 <div class="col-md-12" id="gameContainer" style="width: 1024px; height: 576px"></div>
             </div>
 
@@ -129,7 +129,7 @@ if(isset($_SESSION['form'])){
     <section class="videodemo">
        <div class="container">
            <div class="video">
-               <video src="assets/videos/demo.mkv" class="video" muted autoplay loop controls>
+               <video src="assets/videos/demo.mp4" class="video" muted  controls>
                </video>
            </div>
        </div>      
