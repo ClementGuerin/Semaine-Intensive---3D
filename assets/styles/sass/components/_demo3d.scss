@@ -6,8 +6,24 @@
         text-align: center;
         font-family: 'Exo Bold';
         font-size: 24px;
-        margin-bottom: 100px;
     }
+    
+    .parent-traitbleu{
+        text-align: center;
+        
+        .traitbleu{
+            width: 3px;
+            height: 60px;
+            display: inline-block;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 60px;
+            background: $background-blue;
+            position: relative;
+            right: -1px;
+        }
+    }
+    
     
     .app{
         width: 100%;
@@ -92,10 +108,10 @@
     }
     
     .btnCheck{
-        outline: solid 2px rgba(30, 193, 90, 0.7) !important;
+        outline: solid 2px rgba(74, 144, 226, 0.7) !important;
     }
     
     .btnCheck:hover{
-        outline: solid 2px rgba(30, 193, 90, 0.7) !important;
+        outline: solid 2px rgba(74, 144, 226, 0.7) !important;
     }
 }

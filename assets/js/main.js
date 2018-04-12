@@ -1,3 +1,4 @@
+
 // Portals btn
 
 portalsBtn = document.querySelectorAll('.portalsColor li');
@@ -32,7 +33,38 @@ function checkPortalGun(){
 
 var formModal = document.querySelector('.form-success');
 var formModalBtn = document.querySelector('.btnFormSuccess');
+if(formModalBtn !== null){
+    formModalBtn.addEventListener('click', function(){
+        formModal.remove();
+    });    
+}
 
-formModalBtn.addEventListener('click', function(){
-    formModal.remove();
+// Scroll Menu
+
+var tab1 = document.querySelector('.tab1');
+var tab2 = document.querySelector('.tab2');
+var tab3 = document.querySelector('.tab3');
+
+tab1.addEventListener('click', function(){
+    window.scroll({
+        top: document.querySelector('.technologie').offsetTop, 
+        left: 0, 
+        behavior: 'smooth' 
+    });
+})
+
+tab2.addEventListener('click', function(){
+    window.scroll({
+        top: document.querySelector('.vision').offsetTop-200, 
+        left: 0, 
+        behavior: 'smooth' 
+    });
+})
+
+tab3.addEventListener('click', function(){
+    window.scroll({
+        top: document.querySelector('.form').offsetTop-100, 
+        left: 0, 
+        behavior: 'smooth' 
+    });
 })

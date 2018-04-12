@@ -14,15 +14,14 @@ if (($_POST['lastName']==='') || ($_POST['firstName']==='') || ($_POST['mail']==
 require_once "includes/connection.php";
 $requete = "INSERT INTO 
 `info` 
-(`lastName`, `firstName`, `mail`, `date`) 
+(`lastName`, `firstName`, `mail`) 
 VALUES 
-(:lastName, :firstName, :mail, :date)
+(:lastName, :firstName, :mail)
 ;";
 $stmt = $pdo->prepare($requete);
 $stmt->bindValue(':lastName', $_POST['lastName']);
 $stmt->bindValue(':firstName', $_POST['firstName']);
 $stmt->bindValue(':mail', $_POST['mail']);
-$stmt->bindValue(':date', $_POST['date']);
 
 $stmt->execute();
 

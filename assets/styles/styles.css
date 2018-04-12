@@ -227,17 +227,41 @@ table {
 .videodemo {
   position: relative;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.05);
   width: 100%;
   padding: 120px 0;
 }
 
-/* line 8, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_videodemo.scss */
+/* line 7, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_videodemo.scss */
+.videodemo h1 {
+  text-align: center;
+  font-family: 'Exo Bold';
+  font-size: 24px;
+}
+
+/* line 13, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_videodemo.scss */
+.videodemo .parent-traitbleu {
+  text-align: center;
+}
+
+/* line 16, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_videodemo.scss */
+.videodemo .parent-traitbleu .traitbleu {
+  width: 3px;
+  height: 60px;
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  background: #4a90e2;
+  position: relative;
+  right: -1px;
+}
+
+/* line 29, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_videodemo.scss */
 .videodemo .video {
   background: #fff;
 }
 
-/* line 11, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_videodemo.scss */
+/* line 32, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_videodemo.scss */
 .videodemo .video video {
   width: 100%;
 }
@@ -291,17 +315,34 @@ table {
   text-align: center;
   font-family: 'Exo Bold';
   font-size: 24px;
-  margin-bottom: 100px;
 }
 
-/* line 12, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 11, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+.demo3d .parent-traitbleu {
+  text-align: center;
+}
+
+/* line 14, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+.demo3d .parent-traitbleu .traitbleu {
+  width: 3px;
+  height: 60px;
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  background: #4a90e2;
+  position: relative;
+  right: -1px;
+}
+
+/* line 28, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .app {
   width: 100%;
   padding-top: 56.25%;
   background: #000;
 }
 
-/* line 19, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 35, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalsColor h3 {
   font-size: 16px;
   font-family: 'Exo Regular';
@@ -310,33 +351,33 @@ table {
   text-align: center;
 }
 
-/* line 26, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 42, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalsColor .colors {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 30, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 46, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalsColor .colors li:nth-child(1) {
   background: linear-gradient(to right, #1857ae 0%, #1857ae 49%, #ae590e 50%, #ae590e 100%);
 }
 
-/* line 34, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 50, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalsColor .colors li:nth-child(2) {
   background: linear-gradient(to right, #cea83e 0%, #cea83e 49%, #7c0b0d 50%, #7c0b0d 100%);
 }
 
-/* line 38, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 54, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalsColor .colors li:nth-child(3) {
   background: linear-gradient(to right, #26a0bc 0%, #26a0bc 49%, #362676 50%, #362676 100%);
 }
 
-/* line 42, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 58, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalsColor .colors li:nth-child(4) {
   background: linear-gradient(to right, #362676 0%, #362676 49%, #c6b80a 50%, #c6b80a 100%);
 }
 
-/* line 49, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 65, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalgunColor h3 {
   font-size: 16px;
   font-family: 'Exo Regular';
@@ -345,33 +386,33 @@ table {
   text-align: center;
 }
 
-/* line 56, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 72, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalgunColor .colors {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 60, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 76, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalgunColor .colors li:nth-child(1) {
   background: #dedede;
 }
 
-/* line 64, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 80, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalgunColor .colors li:nth-child(2) {
   background: #ae590e;
 }
 
-/* line 68, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 84, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalgunColor .colors li:nth-child(3) {
   background: #26a0bc;
 }
 
-/* line 73, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 89, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .appBtns .portalgunColor .colors li:nth-child(4) {
   background: #362676;
 }
 
-/* line 80, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 96, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d li {
   width: 50px;
   height: 24px;
@@ -381,19 +422,19 @@ table {
   cursor: pointer;
 }
 
-/* line 90, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 106, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d li:hover {
   outline: solid 2px #dedede;
 }
 
-/* line 94, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 110, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .btnCheck {
-  outline: solid 2px rgba(30, 193, 90, 0.7) !important;
+  outline: solid 2px rgba(74, 144, 226, 0.7) !important;
 }
 
-/* line 98, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
+/* line 114, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_demo3d.scss */
 .demo3d .btnCheck:hover {
-  outline: solid 2px rgba(30, 193, 90, 0.7) !important;
+  outline: solid 2px rgba(74, 144, 226, 0.7) !important;
 }
 
 /* line 1, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */
@@ -463,7 +504,7 @@ table {
   position: relative;
   z-index: 2;
   top: -220px;
-  left: -240px;
+  left: -155px;
 }
 
 /* line 59, C:/wamp64/www/Semaine-Intensive---3D/assets/styles/sass/components/_specs.scss */

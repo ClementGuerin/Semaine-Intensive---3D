@@ -18,13 +18,7 @@ if(isset($_SESSION['form'])){
     <title>SI-3D</title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/styles/styles.css">
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build_Final_White_1024_No_Inputs.json");
-    </script>
-    <script src="assets/js/fontawesome-all.js"></script>
-    
+    <link rel="stylesheet" href="assets/styles/styles.css">    
 </head>
 <body>
     <section class="grid">
@@ -47,13 +41,13 @@ if(isset($_SESSION['form'])){
     <section class="header">
         <div class="container menubar">
             <ul class="menu">
-                <a href="#">
+                <a href="#" class="tab1">
                     <li>Notre technologie</li>
                 </a>
-                <a href="#">
+                <a href="#" class="tab2">
                     <li>Notre vision</li>
                 </a>
-                <a href="#">
+                <a href="#" class="tab3">
                     <li>Inscription</li>
                 </a>
             </ul>
@@ -92,12 +86,15 @@ if(isset($_SESSION['form'])){
     <section class="technologie">
         <div class="container parallax1">
             <h1>NOTRE TECHNOLOGIE</h1>
-            <p class="offset-md-2 col-md-6">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés. Quelque soit la distance qui les sépare, toute chose peut entrer dans un portail avant d’émerger de l’autre côté instantanément. Les portails peuvent être placés sur n’importe quelle surface, à condition que celle-ci soit suffisamment large pour l’accommoder.</p>
+            <p class="offset-md-2 col-md-8">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés. Quelque soit la distance qui les sépare, toute chose peut entrer dans un portail avant d’émerger de l’autre côté instantanément. Les portails peuvent être placés sur n’importe quelle surface, à condition que celle-ci soit suffisamment large pour l’accommoder.</p>
         </div>
     </section>
     <section class="demo3d">
         <div class="container">
             <h1>Découvrez-le en 3D</h1>
+            <div class="col-md-12 parent-traitbleu">
+                <div class="traitbleu"></div>                
+            </div>
             
             <div style="align-content: center;text-align: center;padding: 0px 47px;">
                 <div class="col-md-12" id="gameContainer" style="width: 1024px; height: 576px"></div>
@@ -128,6 +125,10 @@ if(isset($_SESSION['form'])){
     </section>
     <section class="videodemo">
        <div class="container">
+           <h1>Le fonctionnement des portails</h1>
+           <div class="col-md-12 parent-traitbleu">
+               <div class="traitbleu"></div>                
+           </div>
            <div class="video">
                <video src="assets/videos/demo.mp4" class="video" muted  controls>
                </video>
@@ -139,21 +140,22 @@ if(isset($_SESSION['form'])){
            <div class="spec1">
                <img src="assets/img/spec_1.png" alt="spec1" class="img1 offset-md-4">
                <img src="assets/img/portalgun_1.png" alt="portalgun_1" class="img2">
-               <h3>L’ANNEAU DE SINGULARITÉ</h3>
-               <p class="offset-md-7 col-md-4">L’anneau de singularité permet de maintenir le trou noir en rotation, l’empêchant d’être soumis à son propre centre gravitationnel et de par conséquent de s’évaporer.</p>
+               <h3>LA SOURCE D'ENERGIE</h3>
+               <p class="offset-md-7 col-md-4">Le mini trou noir est la pièce centrale du Portal Gun. Tous les composants alentours servent à sa stabilisation. Il génère l’énergie négative nécessaire à la création des portails.
+               </p>
            </div>
            <div class="spec2">
                <img src="assets/img/spec_2.png" alt="spec2" class="img1">
                <img src="assets/img/portalgun_2.png" alt="portalgun_2" class="img2 offset-md-6">
-               <h3 class="offset-md-5">LE VENTILATEUR DE REFROIDISSEMENT</h3>
-               <p class="offset-md-1 col-md-4">Le Portal Gun est un dispositif portatif qui a la capacité de créer deux portails liés.</p>
+               <h3 class="offset-md-5">Anneaux de singularité</h3>
+               <p class="offset-md-1 col-md-4">En rotation permanence, les anneaux de singularité supérieure et inférieure permettent d’empêcher l’effondrement du trou noir.</p>
            </div>
        </div>
     </section>
     <section class="vision">
         <div class="container">
             <h1>Notre vision</h1>
-            <p class="offset-md-2 col-md-6">Notre vocation est de repousser les limites du rationnel, de rendre possible l’impossible. Pour cela, nous recherchons l’innovation partout. Le Portal Gun est notre dernière création et incarne la révolution la plus cruciale de notre génération. Ce dispositif unique nous permet de faire un bond dans le futur, en permettant de donner vie à des idées jusqu’alors réservées aux romans de science-fiction les plus fous.</p>
+            <p class="offset-md-2 col-md-8">Notre vocation est de repousser les limites du rationnel, de rendre possible l’impossible. Pour cela, nous recherchons l’innovation partout. Le Portal Gun est notre dernière création et incarne la révolution la plus cruciale de notre génération. Ce dispositif unique nous permet de faire un bond dans le futur, en permettant de donner vie à des idées jusqu’alors réservées aux romans de science-fiction les plus fous.</p>
         </div>
     </section>
     <section class="form">
@@ -161,7 +163,8 @@ if(isset($_SESSION['form'])){
             <div class="row">
                 <div class="col-md-6">
                     <h1>Il faut le voir<br>pour le croire</h1>
-                    <p>Puisque toute révolution suscite l’intérêt des plus curieux, inscrivez-vous dès maintenant afin d’avoir la chance de venir découvrir le Portal Gun dans notre espace de test. </p>
+                    <p>Puisque toute révolution suscite l’intérêt des plus curieux, inscrivez-vous dès maintenant afin d’avoir la chance de venir découvrir le Portal Gun une fois notre prototype réalisé.
+                    </p>
                 </div>
                 <form class="col-md-5 offset-md-1" action="back/doadd.php" method="post">
                     <input type="text" name="lastName" placeholder="Nom*"> 
@@ -169,18 +172,6 @@ if(isset($_SESSION['form'])){
                     <input type="text" name="firstName" placeholder="Prénom*"> 
 
                     <input type="mail" name="mail" placeholder="Email*"> 
-
-                    <label for="date">Date de visite souhaitée :</label> 
-                    <div>
-                        <select name="date">                        
-                            <option value="29/03/2051">29 Mars 2051</option>
-                            <option value="03/04/2051">03 Avril 2051</option>
-                            <option value="18/04/2051">18 Avril 2051</option>
-                            <option value="07/05/2051">07 Mai 2051</option>
-                            <option value="21/05/2051">21 Mai 2051</option>
-                        </select> 
-                        <i class="fas fa-angle-down"></i>
-                    </div>
 
                     <input type="submit" value="Valider" class="formBtn">
                 </form>
@@ -211,4 +202,9 @@ if(isset($_SESSION['form'])){
 <!-- JS -->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="Build/UnityLoader.js"></script>
+<script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build_Final_Black_1024.json");
+    </script>
+    <script src="assets/js/fontawesome-all.js"></script>
 </html>

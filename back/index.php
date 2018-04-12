@@ -10,8 +10,7 @@ require_once "includes/connection.php";
 $requete = "SELECT 
   `lastName`, 
   `firstName`, 
-  `mail`,
-  `date` 
+  `mail`
 FROM 
   `info`
 ;";
